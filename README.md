@@ -62,7 +62,26 @@ public class SpringBootStarterApplication {
 server.port=9090
 ```
 
-6- Add **SpringBootStarterApplicationTests** class to _/src/test/java/[Package_Name]_
+6- Add **SpringBootStarterApplicationTests** class to _/src/test/java/[Package_Name]_ with following codes:
+
+```
+package ir.seefa.sample.project;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class SpringBootStarterApplicationTests {
+
+	@Test
+	public void contextLoads() {
+	}
+
+}
+```
 
 7- run command **gradle** in command line
 
