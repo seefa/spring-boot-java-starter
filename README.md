@@ -64,12 +64,12 @@ server.port=9090
 
 6- Add **SpringBootStarterApplicationTests** class to _/src/test/java/[Package_Name]_
 
-6- run command **gradle** in command line
+7- run command **gradle** in command line
 
-7- run command **gradle tasks** in command line
+8- run command **gradle tasks** in command line
 
-8- Build your project with Gradle Wrapper => Run in command line(gradle wrapper --gradle-version 5.4.1)
+9- Build your project with Gradle Wrapper => Run in command line(gradle wrapper --gradle-version 5.4.1)
 
-9- After passing step No.8, we can only run this command to build project(**./gradlew build**)
+10- After passing step No.8, we can only run this command to build project(**./gradlew build**)
 
-10- Run this command will execute our Application(**./gradlew run**)  or Run **SpringBootStarterApplication** directly.
+11- Run this command will execute our Application(**./gradlew run**)  or Run **SpringBootStarterApplication** directly.
